@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <img class="logo" src="/img/logo.jpeg" alt="">
+    <h1>Formulário de Controle de Vacinação</h1>
+    <form action="michelebarreto1@hotmail.com">
+        <fieldset>
+            <legend class="legenda">Dados da Empresa</legend>
+            <p>Industrial de Alimentos Ltda.</p>
+            <label for="">Data da Admissão: </label>
+            <input type="date">
+            <label>Setor Que Trabalha ?</label>
+            <select name="" id="">
+                <option value=""></option>
+                <option value="">Financeiro</option>
+                <option value="">Compras</option>
+                <option value="">Manutenção</option>
+                <option value="">RH</option>
+
+            </select>
+            <br><br>
+
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend class="legenda">Dados Pessoais</legend>
+            <label for="">Nome: </label>
+            <input type="text" size="100">
+            <labe>Sexo: </labe>
+            Feminino<input type="radio" name="M" id="">
+            Masculino<input type="radio" name="H" id="">
+            <br><br>
+            <label for="">Data de Nascimento: </label>
+            <input type="date">
+            <br><br>
+            <label for="">Endereço: </label>
+            <input type="text" size="100">
+            <label for="">Bairro: </label>
+            <input type="number">
+            <label for=""> Telefone: </label>
+            <input type="tel">
+            <br><br>
+            <label for="">RG: </label>
+            <input type="number">
+            <label for="">CPF: </label>
+            <input type="number">
+            <label> E-mail</label>
+            <input type="email">
+            <br><br>
+            <label for="">Nome da Mãe </label>
+            <input type="text" size="100">
+            <br><br>
+            <label for="">Nome do Pai: </label>
+            <input type="text" size="100">
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend class="legenda">Dados de Vacinação</legend>
+            <label for="">Data da 1° Dose: </label>
+            <input type="date">
+            <label>Teve alguma reação alérgica ?</label>
+            <textarea cols="30" rows="5" placeholder="Descrevas"></textarea><br>
+            <label for="">Data da 2° Dose: </label>
+            <input type="date">
+            <label>Teve alguma reação alérgica ?</label>
+            <textarea cols="30" rows="5" placeholder="Descrevas"></textarea>
+
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button> <button type="reset">Limpar</button>
+
+
+
+
+
+    </form>
+</body>
+
+</html>

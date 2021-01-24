@@ -1,0 +1,17 @@
+
+body{
+    background-color: rgb(215, 250, 238);
+}
+
+.logo{
+   height: 300px;
+   width: 1900px;
+   
+}
+h1{
+    text-align: center;
+    margin-top: 5px;
+}
+.legenda{
+    font-weight: bold;
+}
