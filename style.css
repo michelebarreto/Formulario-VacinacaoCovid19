@@ -15,3 +15,10 @@ h1{
 .legenda{
     font-weight: bold;
 }
+input{
+    border-radius: 1rem;
+    
+}
+button{
+    border-radius: 1rem;
+}
